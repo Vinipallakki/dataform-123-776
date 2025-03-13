@@ -11,4 +11,6 @@ config {
 SELECT 
   1 AS number_1,
   2 AS number_2,
-  3 AS number_3
+  3 AS number_3,
+  4 AS number_4,
+  5 AS number_5
