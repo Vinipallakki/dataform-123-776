@@ -1,0 +1,15 @@
+config {
+  type: "first",
+  schema: "your_dataset",
+  name: "raw_table"
+}
+
+SELECT 
+  CAST(1 AS INT64) AS id, 
+  "Alice" AS name, 
+  CURRENT_TIMESTAMP() AS created_at
+UNION ALL
+SELECT 
+  CAST(2 AS INT64) AS id, 
+  "Bob" AS name, 
+  CURRENT_TIMESTAMP() AS created_at;
