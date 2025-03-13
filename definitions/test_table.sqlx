@@ -13,4 +13,5 @@ SELECT
   2 AS number_2,
   3 AS number_3,
   4 AS number_4,
-  5 AS number_5
+  5 AS number_5,
+  6 AS number_6
