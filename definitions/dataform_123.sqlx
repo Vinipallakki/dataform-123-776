@@ -1,5 +1,5 @@
 config {
-  type: "table",
+  type: "first",
   schema: "your_dataset",
   name: "raw_table"
 }
