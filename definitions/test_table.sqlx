@@ -1,0 +1,17 @@
+config {
+  type: "table",
+  description: "Description of the table",
+  columns: {
+    number_1: "Description of the first column",
+    number_2: "Description of the second column",
+    number_3: "Description of the third column"
+  }
+}
+
+SELECT 
+  1 AS number_1,
+  2 AS number_2,
+  3 AS number_3,
+  4 AS number_4,
+  5 AS number_5,
+  6 AS number_6
